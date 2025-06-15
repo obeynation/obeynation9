@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | OBEYNATION</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader-content">
+      <h1>OBEY<span>NATION</span></h1>
+      <div class="loader-progress">
+        <div class="loader-progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">OBEY<span>NATION</span></a>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="theme-toggle">
+          <div class="theme-toggle-icon"></div>
+        </div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <div class="container">
+      <ul class="mobile-nav-list">
+        <li class="mobile-nav-item"><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About</a></li>
+        <li class="mobile-nav-item"><a href="projects.html" class="mobile-nav-link active">Projects</a></li>
+        <li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-menu-footer">
+        <div class="social-links">
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">Twitter</a>
+          <a href="#" class="social-link">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Projects Hero Section -->
+    <section class="projects-hero">
+      <div class="container">
+        <div class="projects-hero-content">
+          <h1 class="projects-title reveal-text">Our <span class="accent-text">Projects</span></h1>
+          <p class="projects-subtitle reveal-text">Explore our portfolio of creative work</p>
+        </div>
+      </div>
+      <div class="projects-hero-background">
+        <div class="projects-hero-image"></div>
+        <div class="overlay"></div>
+      </div>
+    </section>
+
+    <!-- Projects Filter Section -->
+    <section class="projects-filter">
+      <div class="container">
+        <div class="filter-controls reveal-element">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="web-design">Web Design</button>
+          <button class="filter-btn" data-filter="ui-design">UI/UX Design</button>
+          <button class="filter-btn" data-filter="photography">Photography</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Gallery Section -->
+    <section class="projects-gallery">
+      <div class="container">
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-item reveal-element" data-category="branding">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Ethereal Identity Project">
+              <div class="project-overlay">
+                <div class="project-category">Branding</div>
+                <div class="project-title">Ethereal Identity</div>
+                <a href="#" class="project-link" data-project="project1">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 2 -->
+          <div class="project-item reveal-element" data-category="web-design">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Luminous Portfolio Project">
+              <div class="project-overlay">
+                <div class="project-category">Web Design</div>
+                <div class="project-title">Luminous Portfolio</div>
+                <a href="#" class="project-link" data-project="project2">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 3 -->
+          <div class="project-item reveal-element" data-category="photography">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Urban Perspectives Project">
+              <div class="project-overlay">
+                <div class="project-category">Photography</div>
+                <div class="project-title">Urban Perspectives</div>
+                <a href="#" class="project-link" data-project="project3">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 4 -->
+          <div class="project-item reveal-element" data-category="ui-design">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1279813/pexels-photo-1279813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Quantum App Project">
+              <div class="project-overlay">
+                <div class="project-category">UI/UX Design</div>
+                <div class="project-title">Quantum App</div>
+                <a href="#" class="project-link" data-project="project4">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 5 -->
+          <div class="project-item reveal-element" data-category="branding">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Nova Rebrand Project">
+              <div class="project-overlay">
+                <div class="project-category">Branding</div>
+                <div class="project-title">Nova Rebrand</div>
+                <a href="#" class="project-link" data-project="project5">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 6 -->
+          <div class="project-item reveal-element" data-category="web-design">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Zenith E-commerce Project">
+              <div class="project-overlay">
+                <div class="project-category">Web Design</div>
+                <div class="project-title">Zenith E-commerce</div>
+                <a href="#" class="project-link" data-project="project6">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 7 -->
+          <div class="project-item reveal-element" data-category="ui-design">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Pulse Dashboard Project">
+              <div class="project-overlay">
+                <div class="project-category">UI/UX Design</div>
+                <div class="project-title">Pulse Dashboard</div>
+                <a href="#" class="project-link" data-project="project7">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 8 -->
+          <div class="project-item reveal-element" data-category="photography">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Chromatic Series Project">
+              <div class="project-overlay">
+                <div class="project-category">Photography</div>
+                <div class="project-title">Chromatic Series</div>
+                <a href="#" class="project-link" data-project="project8">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 9 -->
+          <div class="project-item reveal-element" data-category="branding">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Elysian Identity Project">
+              <div class="project-overlay">
+                <div class="project-category">Branding</div>
+                <div class="project-title">Elysian Identity</div>
+                <a href="#" class="project-link" data-project="project9">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <div class="modal-body">
+          <!-- Modal content will be loaded dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact CTA Section -->
+    <section class="contact-cta">
+      <div class="container">
+        <div class="cta-content reveal-element">
+          <h2 class="cta-title">Have a project in mind?</h2>
+          <p class="cta-text">Let's create something amazing together.</p>
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="index.html">OBEY<span>NATION</span></a>
+        </div>
+        <div class="footer-links">
+          <div class="footer-nav">
+            <h3 class="footer-heading">Navigation</h3>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item"><a href="index.html" class="footer-nav-link">Home</a></li>
+              <li class="footer-nav-item"><a href="about.html" class="footer-nav-link">About</a></li>
+              <li class="footer-nav-item"><a href="projects.html" class="footer-nav-link">Projects</a></li>
+              <li class="footer-nav-item"><a href="contact.html" class="footer-nav-link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3 class="footer-heading">Connect</h3>
+            <div class="social-links">
+              <a href="#" class="social-link">Instagram</a>
+              <a href="#" class="social-link">Twitter</a>
+              <a href="#" class="social-link">LinkedIn</a>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h3 class="footer-heading">Contact</h3>
+            <div class="contact-info">
+              <p>francisevenezer@gmail.com</p>
+              <p>0913 184 8867</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright">
+          <p>&copy; 2025 OBEYNATION. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="projects.js"></script>
+</body>
+</html>
